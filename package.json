@@ -7,20 +7,27 @@
     "email": "your-email-here@example.com"
   },
   "scripts": {
-    "next-start": "cross-env BROWSER=none next dev",
+    "next-start": "corss-env BROWSER=none next dev",
     "next-build": "next build && next export",
     "tauri": "tauri",
     "build": "tauri build",
-    "dev": "tauri dev",
+    "dev": "next dev",
+    "dev-tauri": "tauri dev",
     "lint": "next lint",
     "prepare": "husky install"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
     "@tauri-apps/api": "^1.0.2",
     "clsx": "^1.2.1",
     "next": "^12.2.3",
+    "next-redux-wrapper": "^8.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-switch": "^7.0.0",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@prettier/plugin-xml": "^2.2.0",

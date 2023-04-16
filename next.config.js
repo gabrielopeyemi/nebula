@@ -5,9 +5,9 @@ const nextConfig = {
   experimental: {
     images: {
       allowFutureImage: true,
-      unoptimized: true,
+      unoptimized: false,
     },
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
